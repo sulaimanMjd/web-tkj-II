@@ -1,0 +1,32 @@
+/* VideoPlayer.css */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ganti warna tombol play dan kontrol lainnya */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ganti warna ikon play */
+.ytp-svg-fill {
+  fill: #888; /* Warna hitam keabu-abuan */
+}
+
+/* Ganti warna ikon kontrol lainnya jika diperlukan */
+/* .ytp-svg-fill { fill: #888; } */
